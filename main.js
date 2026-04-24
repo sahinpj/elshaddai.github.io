@@ -80,7 +80,7 @@ window.addEventListener('resize', updateChromeHeight);
   if (prevBtn) prevBtn.addEventListener('click', function() { prev(); startTimer(); });
   dots.forEach(d => d.addEventListener('click', function() { goTo(+this.dataset.idx); startTimer(); }));
 
-  startTimer();
+  // startTimer(); // Removed to make carousel static
 })();
 
 // ── Portfolio filter + load more (index.html) ──

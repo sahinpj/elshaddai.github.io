@@ -1123,21 +1123,21 @@
     .btn-outline-white:hover { border-color: #ffffff80; }
 
     /* Footer */
-    footer { background: #080f1e; padding: 72px 40px 40px; }
+    footer { background: white; padding: 72px 40px 40px; }
     .footer-inner { max-width: 1440px; margin: 0 auto; }
     .footer-top { display: grid; grid-template-columns: 2fr 1fr 1fr 1fr; gap: 48px; margin-bottom: 56px; }
-    .footer-brand p { font-size: 13px; color: #ffffff50; line-height: 1.7; max-width: 280px; margin-top: 16px; }
+    .footer-brand p { font-size: 13px; color: var(--ink-60); line-height: 1.7; max-width: 280px; margin-top: 16px; }
     .footer-logo { display: flex; align-items: center; gap: 10px; }
-    .footer-logo .line1 { font-size: 14px; font-weight: 700; color: var(--white); letter-spacing: -.3px; display: block; }
-    .footer-logo .line2 { font-size: 10px; font-weight: 500; color: #ffffff40; letter-spacing: .04em; text-transform: uppercase; display: block; }
-    .footer-col-title { font-size: 11px; font-weight: 600; letter-spacing: .08em; text-transform: uppercase; color: #ffffff35; margin-bottom: 16px; }
-    .footer-link { font-size: 13px; color: #ffffff65; display: block; margin-bottom: 10px; transition: color .15s; cursor: pointer; }
-    .footer-link:hover { color: var(--white); }
-    .footer-bottom { border-top: 1px solid #ffffff0e; padding-top: 28px; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 12px; }
-    .footer-copy { font-size: 12px; color: #ffffff28; }
+    .footer-logo .line1 { font-size: 14px; font-weight: 700; color: var(--ink); letter-spacing: -.3px; display: block; }
+    .footer-logo .line2 { font-size: 10px; font-weight: 500; color: var(--ink-30); letter-spacing: .04em; text-transform: uppercase; display: block; }
+    .footer-col-title { font-size: 11px; font-weight: 600; letter-spacing: .08em; text-transform: uppercase; color: var(--ink-30); margin-bottom: 16px; }
+    .footer-link { font-size: 13px; color: var(--ink-60); display: block; margin-bottom: 10px; transition: color .15s; cursor: pointer; }
+    .footer-link:hover { color: var(--ink); }
+    .footer-bottom { border-top: 1px solid var(--border); padding-top: 28px; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 12px; }
+    .footer-copy { font-size: 12px; color: var(--ink-30); }
     .footer-legal { display: flex; gap: 20px; }
-    .footer-legal a { font-size: 12px; color: #ffffff28; transition: color .15s; }
-    .footer-legal a:hover { color: #ffffff65; }
+    .footer-legal a { font-size: 12px; color: var(--ink-30); transition: color .15s; }
+    .footer-legal a:hover { color: var(--ink-60); }
   
     /* ══════════════════════════════════════════
        RESPONSIVE MOBILE — Groupe El Shaddai
